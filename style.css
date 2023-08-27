@@ -42,8 +42,10 @@ body{
 }
 
 .img-drawer{
+    display: flex;
     width: 25rem;
     height: 25rem;
+    align-items: center;
 }
 
 
@@ -136,6 +138,9 @@ body{
 /* .active .social-section{
 
 } */
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
 
 
 @media screen and (max-width: 1050px) {
